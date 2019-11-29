@@ -65,6 +65,7 @@ function App() {
       <div className="header">
         <img src={logo} className="logo" alt="logo" />
       </div>
+      <div className="tittle">TO DO LIST</div>
       <form className="todo-list">
         <ul>
           {todos.map((todo, i) => (
