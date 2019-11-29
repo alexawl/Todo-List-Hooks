@@ -29,14 +29,21 @@ body {
     width: 475px;
     height: auto;
     margin: auto;
-    box-shadow: 5px 10px 15px #888888, 5px 10px 35px lavender;
+    box-shadow: 5px 10px 15px #5f5e5e, 5px 10px 35px lavender;
 }
 
 .todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
   display: flex;
   align-items: center;
-  margin: 1rem 0;
+  justify-content: space-between;
 }
+
 
 .todo-is-completed .checkbox {
   color: rgb(163, 13, 13);
